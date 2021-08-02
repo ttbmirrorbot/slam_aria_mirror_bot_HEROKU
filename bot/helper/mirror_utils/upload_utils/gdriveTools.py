@@ -115,7 +115,7 @@ class GoogleDriveHelper:
                                      resumable=False)
         file_metadata = {
             'name': file_name,
-            'description': 'Uploaded using AT_BOTS',
+            'description': 'Uploaded By tntoonbot',
             'mimeType': mime_type,
         }
         if parent_id is not None:
@@ -169,7 +169,7 @@ class GoogleDriveHelper:
         # File body description
         file_metadata = {
             'name': file_name,
-            'description': 'Uploaded by AT_BOTS',
+            'description': 'Telegram - @tntoonbot',
             'mimeType': mime_type,
         }
         try:
